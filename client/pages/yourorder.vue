@@ -2,7 +2,7 @@
   <div class="container">
 <div class="row">
   <div class="col-12">
-    <h1>Your Order</h1>
+    <PageTitle page_title="Your Order"/>
     <p>...</p>
   </div>
 </div>
@@ -12,6 +12,6 @@
 <script>
 export default {
   layout: 'homepage',
-  name: 'your order',
+  name: 'yourorder',
 }
 </script>
