@@ -23,14 +23,8 @@ export default {
         justify-content: space-evenly;
         align-items: center;
         margin: 40px 80px;
-        a {
-            // text-transform: uppercase;
-            font-size: 20px;
-            font-weight: 100;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            &.nuxt-link-exact-active {
-                border-bottom: 1px solid orange;
+        .golden-lines {
+            border-bottom: 1px solid orange;
                 &::after {
                 display: block;
                 content:"";
@@ -41,15 +35,24 @@ export default {
                 top: 5px;
                 margin: 0px auto;
             }
+        }
+        a {
+            // text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 100;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            &.nuxt-link-exact-active {
+                @extend .golden-lines
             }
             &:hover {
-                border-bottom: 1px solid orange;
+                @extend .golden-lines
 
             }
 
         }
         .dot {
-            color: goldenrod;
+            color: orange;
             font-size: 7px;
         }
     }
