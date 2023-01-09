@@ -1,0 +1,16 @@
+// app global css in SCSS form
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+$body-bg: white;
+$primary: indigo;
+
+body {
+  font-size: 18px;
+  font-family: "Sofia", cursive;
+  background-color: $body-bg;
+  // h1 {
+
+  // }
+}
+
+//{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+//{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Sofia&display=swap' },

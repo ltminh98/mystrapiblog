@@ -1,0 +1,12 @@
+// @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+$body-bg: white;
+$primary: indigo;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+body {
+  font-size: 18px;
+  font-family: "Sofia", cursive;
+  background-color: $body-bg;
+  // h1 {
+
+  // }
+}
