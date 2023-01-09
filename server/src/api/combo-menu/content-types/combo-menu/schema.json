@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "combo_menus",
+  "info": {
+    "singularName": "combo-menu",
+    "pluralName": "combo-menus",
+    "displayName": "Combo Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "maxLength": 255,
+      "minLength": 1
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Price": {
+      "type": "decimal",
+      "default": 0
+    },
+    "Color": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
